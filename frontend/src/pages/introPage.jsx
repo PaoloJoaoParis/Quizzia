@@ -6,7 +6,7 @@ function IntroPage(){
     return (
         <Link to="/home">
             <div className="logo-container">     
-                    <img src={logoIntro} alt="Logo QuizIA" id="logo" />
+                <img src={logoIntro} alt="Logo QuizIA" id="logo" />
             </div>
         </Link>
     )

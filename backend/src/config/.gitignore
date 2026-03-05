@@ -1,0 +1,18 @@
+# Environnement
+.env
+
+# Config sensible
+config/database.local.js
+
+# Node
+node_modules/
+
+# Logs
+logs/
+*.log
+
+# OS
+.DS_Store
+
+# Build
+dist/

@@ -1,0 +1,46 @@
+.logo-container {
+  background-image: url("/src/assets/background.svg");
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#logo {
+  width: 65%;
+  height: auto;
+  animation:
+    popIn 700ms ease-out forwards,
+    pulse 3s ease-in-out infinite 700ms;
+
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0.6);
+    opacity: 0;
+  }
+  70% {
+    transform: scale(1.08);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+

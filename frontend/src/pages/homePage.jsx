@@ -34,7 +34,7 @@ function HomePage() {
           <CardContent>
             <FieldSet>
               <FieldGroup>
-                {/* Ligne : Pseudo + Age */}
+                {/*Pseudo et Age */}
                 <div className="flex gap-4">
                   <Field className="flex-1">
                     <FieldContent>
@@ -50,7 +50,7 @@ function HomePage() {
                   </Field>
                 </div>
 
-                {/* Ligne : Catégorie */}
+                {/* Catégorie */}
                 <Field>
                   <FieldContent>
                     <FieldLabel htmlFor="categorie">Catégorie</FieldLabel>

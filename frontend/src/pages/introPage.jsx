@@ -1,5 +1,5 @@
-import logoIntro from "../assets/logo-intro.png";
 import { Link } from "react-router-dom";
+import logoIntro from "../assets/logo-intro.png";
 import "../styles/pages/introPage.css";
 
 function IntroPage() {
